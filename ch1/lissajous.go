@@ -12,6 +12,7 @@ import (
 	"math/rand"
 	"os"
 )
+
 // 原示例
 // var palette = []color.Color{color.White, color.Black}
 // exercise 1.5 更改颜色:黑色-->绿色
