@@ -78,6 +78,7 @@ func main() {
 
 	fmt.Println(x.Has(9), x.Has(123))
 
+	// string方法使用的是指针接收器，所以下面的两个语句，只有第二个是正常输出的
 	fmt.Println(x)
 	fmt.Println(&x)
 }
